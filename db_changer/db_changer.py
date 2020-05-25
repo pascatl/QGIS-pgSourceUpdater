@@ -229,4 +229,4 @@ class DBChanger:
             # write project file to DB
             QgsProject.instance().write(project_uri)
 
-            iface.messageBar().pushMessage("Erledigt!", f"Verbindungsparameter bei {len(postgres_layer)} Layer(n) erfolgreich geändert (IP: 10.17.33.15 Port: 5432) ", level=Qgis.Success)
+            iface.messageBar().pushMessage("Erledigt!", f"Verbindungsparameter bei {len(postgres_layer)} Layer(n) erfolgreich geändert (IP: new IP Port: new Port) ", level=Qgis.Success)
